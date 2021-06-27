@@ -1,0 +1,44 @@
+.about {
+  text-align: center;
+  .titleHolder {
+    position: relative;
+    padding: 0 0 30px;
+    margin: 0 0 40px;
+    
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      
+      transform: translateX(-50%);
+      content: '';
+      
+      width: 50px;
+      height: 3px;
+      
+      background: #1890ff;
+    }
+    
+    h3 {
+      font-weight: 800;
+      font-size: 30px;
+    }
+  }
+  .contentHolder {
+    text-align: center;
+    margin: 0 0 40px;
+  }
+  .addInfor {
+    .content {
+      .icon {
+        font-size: 40px;
+        color: #1890ff
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+  }
+}

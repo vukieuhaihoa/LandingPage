@@ -1,0 +1,41 @@
+.contact {
+  text-align: center;
+
+  .titleHolder {
+    
+    position: relative;
+    
+    margin: 0 0 30px;
+    padding: 0 0 20px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+  
+      background: #1890ff;
+  
+      transform: translateX(-50%);
+  
+      width: 50px;
+      height: 3px;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 30px;
+
+    }
+  }
+
+  .form {
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+    
+    textarea {
+      min-height: 120px;
+      height: 120px;
+    }
+  }
+}

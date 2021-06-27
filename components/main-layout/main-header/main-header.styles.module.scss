@@ -1,0 +1,29 @@
+.header {
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+
+  .logo {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 0 30px;
+    .fas {
+      color: #1890ff;
+      margin-right: 8px;
+      font-size: 28px;
+    }
+    
+    a {
+      color: #333;
+    }
+  }
+
+  .customMenu {
+    color: blue;
+  }
+}

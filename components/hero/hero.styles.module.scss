@@ -1,0 +1,44 @@
+.hero {
+  background: url('../../public/assets/images/bg-hero.jpg') no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+
+  .containerFluid {
+    display: block !important;
+    
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0 15px;
+    .content {
+      max-width: 640px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      padding: 0 0 70px;
+
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+
+      }
+      .btnHolder {
+        height: auto !important;
+        
+        display: flex;
+        flex-direction: row;
+
+        button {
+          
+          margin: 0 10px 0 0;
+          i {
+            margin: 0 8px 0 0;
+          }
+        }
+      }
+    }
+  }
+}
