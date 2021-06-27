@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## What I learned thought project
+
+I learn more about nextjs and apply ant design into project
 ## Getting Started
 
 First, run the development server:
